@@ -1,3 +1,23 @@
+package design_patterns.factory.factory_method.example2.factories;
+
+import design_patterns.factory.factory_method.example2.pizzas.Pizza;
+
+public abstract class PizzaFactory {
+    public abstract Pizza createPizza(String type);
+
+    public Pizza orderPizza(String type){
+        Pizza pizza = this.createPizza(type);
+
+        pizza.prepare();
+        pizza.cook();
+
+        return pizza;
+    }
+}
+
+/*
+Main example :
+
 import design_patterns.factory.factory_method.example2.factories.ChicagoStylePizzaFactory;
 import design_patterns.factory.factory_method.example2.factories.NYStylePizzaFactory;
 import design_patterns.factory.factory_method.example2.factories.PizzaFactory;
@@ -14,3 +34,5 @@ public class Main {
         Pizza pizza2 = store2.orderPizza("greek");
     }
 }
+
+*/
