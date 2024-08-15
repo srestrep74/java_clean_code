@@ -1,4 +1,4 @@
-import design_patterns.adapter.example1.AudioPlayer;
+import design_patterns.adapter.example2.AudioPlayer;
 
 public class Main {
     public static void main(String[] args) {

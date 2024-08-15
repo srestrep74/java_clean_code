@@ -1,5 +1,6 @@
-package design_patterns.adapter.example1;
+package design_patterns.adapter.example2;
 
+// Client reproduce Video but wants audio
 public class AudioPlayer implements MediaPlayer{
 
     private MediaAdapter mediaAdapter;

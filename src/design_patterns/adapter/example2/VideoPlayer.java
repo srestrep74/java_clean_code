@@ -1,4 +1,4 @@
-package design_patterns.adapter.example1;
+package design_patterns.adapter.example2;
 
 // Existent class (Adaptee)
 public class VideoPlayer {
