@@ -1,6 +1,6 @@
-package design_patterns.factory.simple_factory;
+package design_patterns.factory.simple_factory.example1;
 
-public class PepperoniPizza extends Pizza{
+public class PepperoniPizza extends Pizza {
 
     public PepperoniPizza(double price){
         super(price);

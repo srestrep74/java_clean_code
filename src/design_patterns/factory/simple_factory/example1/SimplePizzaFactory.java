@@ -1,4 +1,4 @@
-package design_patterns.factory.simple_factory;
+package design_patterns.factory.simple_factory.example1;
 
 public class SimplePizzaFactory {
     public static Pizza createPizza(String type){
